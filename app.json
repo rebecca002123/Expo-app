@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Constella",
+    "slug": "constella",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "constella",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "backgroundColor": "#05070f",
+    "splash": {
+      "backgroundColor": "#05070f"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.constella.app"
+    },
+    "android": {
+      "package": "com.constella.app"
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
+  }
+}
