@@ -1,0 +1,173 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║               GITHUB + EXPO GO WORKFLOW (iPhone Ready!)                    ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+SETUP ONCE (10 minutes)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    ┌─────────────────────────────────┐
+    │ 1. Create GitHub Repo           │
+    │    https://github.com/new       │
+    │                                 │
+    │    Name: alarm-notifications-app│
+    │    Public ✓                     │
+    │    Add .gitignore (Node.js) ✓   │
+    └─────────────────────────────────┘
+                    ↓
+    ┌─────────────────────────────────┐
+    │ 2. Copy Repository URL          │
+    │    https://github.com/YOUR_    │
+    │    USERNAME/alarm-...git         │
+    └─────────────────────────────────┘
+                    ↓
+    ┌─────────────────────────────────┐
+    │ 3. Terminal: Push Code          │
+    │                                 │
+    │ $ cd [project-folder]           │
+    │ $ git init                      │
+    │ $ git add .                     │
+    │ $ git commit -m "Initial"       │
+    │ $ git remote add origin [URL]   │
+    │ $ git branch -M main            │
+    │ $ git push -u origin main       │
+    └─────────────────────────────────┘
+                    ↓
+    ┌─────────────────────────────────┐
+    │ ✅ Code is now on GitHub        │
+    │    https://github.com/YOUR_    │
+    │    USERNAME/alarm-...          │
+    └─────────────────────────────────┘
+
+
+RUN ON YOUR iPhone (Daily)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    ┌─────────────────────────────────┐
+    │ Download: Expo Go              │
+    │ (App Store - FREE)             │
+    └─────────────────────────────────┘
+                    ↓
+    ┌─────────────────────────────────┐
+    │ Terminal:                       │
+    │ $ npm install                   │
+    │ $ npx expo start                │
+    └─────────────────────────────────┘
+                    ↓
+    ┌─────────────────────────────────┐
+    │ See QR Code? Grab iPhone        │
+    │ Camera → Scan → Tap "Open       │
+    │ in Expo Go"                     │
+    │                                 │
+    │ Or paste exp:// link in Notes   │
+    └─────────────────────────────────┘
+                    ↓
+    ┌─────────────────────────────────┐
+    │ 🎉 APP RUNNING ON YOUR IPHONE  │
+    └─────────────────────────────────┘
+
+
+MAKE CHANGES (Anytime)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    ┌─────────────────────────────────┐
+    │ 1. Edit AlarmNotificationApp.jsx│
+    │    (Change colors, icons, etc)  │
+    └─────────────────────────────────┘
+                    ↓
+    ┌─────────────────────────────────┐
+    │ 2. Terminal:                    │
+    │    $ git add .                  │
+    │    $ git commit -m "Update:..." │
+    │    $ git push origin main       │
+    └─────────────────────────────────┘
+                    ↓
+    ┌─────────────────────────────────┐
+    │ 3. Terminal:                    │
+    │    $ npx expo start             │
+    │                                 │
+    │ 4. Reload in Expo Go:           │
+    │    (shake phone or close/open)  │
+    └─────────────────────────────────┘
+                    ↓
+    ┌─────────────────────────────────┐
+    │ ✅ Changes visible on iPhone    │
+    └─────────────────────────────────┘
+
+
+SHARE YOUR APP (Impress friends!)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Get your exp:// link from terminal when running:
+$ npx expo start
+
+Share the link:
+    📱 Text/iMessage
+    📧 Email  
+    🐦 Twitter/Reddit
+    💬 Discord/Slack
+
+Friend gets link → Opens in Expo Go → Sees your app instantly! ✨
+
+
+QUICK EDITS (No Terminal)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Open: AlarmNotificationApp.jsx
+
+Change time:
+  time: '11:03'  →  time: '07:30'
+
+Change color:
+  color: ['#1e3a8a', '#0c4a6e']  →  color: ['#7c3aed', '#6d28d9']
+
+Change icon:
+  icon: 'alarm'  →  icon: 'coffee'
+  (browse: https://icons.expo.fyi/)
+
+Change snooze options:
+  {[5, 10, 15].map  →  {[3, 7, 20].map
+
+
+FILES YOU NEED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ App.js                        (Entry point - don't change)
+✅ AlarmNotificationApp.jsx      (Main code - CUSTOMIZE THIS!)
+✅ app.json                      (Configuration - don't change)
+✅ package.json                  (Dependencies - don't change)
+✅ .gitignore                    (Git stuff - don't change)
+
+
+TERMINAL CHEAT SHEET
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+First time setup:
+  npm install
+
+Run on your phone:
+  npx expo start
+
+View code on GitHub:
+  https://github.com/YOUR_USERNAME/alarm-notifications-app
+
+Update and push changes:
+  git add .
+  git commit -m "Your message"
+  git push origin main
+
+Check git status:
+  git status
+
+View recent commits:
+  git log --oneline
+
+
+THAT'S IT! 🚀
+
+You now have:
+✅ Code version controlled on GitHub
+✅ App runs on your iPhone via Expo Go
+✅ Shareable link for friends
+✅ Easy update workflow
+
+Questions? Read COPY_PASTE_INSTRUCTIONS.md

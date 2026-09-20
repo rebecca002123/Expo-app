@@ -1,0 +1,70 @@
+╔════════════════════════════════════════════════════════════════════╗
+║      ALARM NOTIFICATIONS APP - QUICK START FOR iPHONE             ║
+╚════════════════════════════════════════════════════════════════════╝
+
+👉 FASTEST WAY (5 minutes):
+
+1. Download "Expo Go" app on your iPhone (free - App Store)
+
+2. On your Mac, in the project folder:
+   $ npm install
+   $ npx expo start
+
+3. See the QR code? Grab your iPhone and scan it with Camera app
+
+4. Tap "Open in Expo Go"
+
+5. DONE! App opens on your iPhone instantly ✅
+
+════════════════════════════════════════════════════════════════════
+
+🔗 TO SHARE VIA GITHUB LINK:
+
+1. Go to: https://github.com/new
+   
+2. Create repo named: alarm-notifications-app
+   (choose PUBLIC)
+
+3. On Mac terminal:
+   $ git init
+   $ git add .
+   $ git commit -m "Initial commit"
+   $ git remote add origin https://github.com/YOUR_USERNAME/alarm-notifications-app.git
+   $ git push -u origin main
+
+4. Run on Mac:
+   $ npx expo start
+   
+5. Get the exp:// link from terminal output
+
+6. Share that link with anyone - they can open it in Expo Go!
+
+════════════════════════════════════════════════════════════════════
+
+📝 NEED HELP? Read these files:
+
+- SETUP.md            → Full setup guide
+- GITHUB_SETUP.md     → Complete GitHub + Expo Go walkthrough
+- App.js              → Entry point (don't modify usually)
+- AlarmNotificationApp.jsx → Main code (customize here!)
+
+════════════════════════════════════════════════════════════════════
+
+🎨 QUICK CUSTOMIZATIONS:
+
+Change colors (in AlarmNotificationApp.jsx):
+  Find: color: ['#1e3a8a', '#0c4a6e'],
+  Change to: color: ['#7c3aed', '#6d28d9'],  (purple)
+
+Change icons:
+  Find: icon: 'alarm',
+  Change to: icon: 'coffee',  (or 'dumbbell', 'bell', etc.)
+  Browse all: https://icons.expo.fyi/
+
+Change snooze options:
+  Find: {[5, 10, 15].map
+  Change to: {[3, 7, 20].map
+
+════════════════════════════════════════════════════════════════════
+
+✨ That's it! Enjoy your app 🚀

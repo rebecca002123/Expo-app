@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Alarm Notifications",
+    "slug": "alarm-notifications-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.alarmnotifications.app"
+    },
+    "android": {
+      "package": "com.alarmnotifications.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#1F2937"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-linear-gradient"
+      ]
+    ]
+  }
+}
